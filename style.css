@@ -1,0 +1,274 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',san-serif;
+}
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 1052px;
+}
+.box p {
+    font-family: 'Poppins',san-serif;
+    font-size: 1.2em;
+    color: #fff;
+}
+.box h1 {
+    font-size: 8em;
+    color: #fff;
+    align-items: center;
+}
+.box5:hover{
+    transform:scale(1.3) ;
+    
+   
+    z-index: 2;
+}
+.box5{
+    transition: 1s;
+}
+
+.sizediv{
+	width:100%;
+	height:745px;
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("https://sight.ieee.org/wp-content/uploads/2020/05/IEEE-Student-Branch-College-of-Engineering-Chengannur.jpg");
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+	background-size:cover;
+}
+.sizediv img{
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+header{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    padding:30px 100px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+header .logo
+{
+    color: #fff;
+    text-shadow: 5px 5px 10px black;
+
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    
+}
+header ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding:6px 15px;
+    
+    border-radius: 20px;
+    
+}
+
+header ul li a:hover
+
+{
+    background:#3d4ee3;
+    color:#fff
+
+}
+.box {
+    
+  display: flex;
+  background: hsl(0 0% 100% / 0.1);
+  /* backdrop-filter: blur(1rem); */
+  padding: 10px 17px;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+    align-items: center;
+  
+  }
+.pg2{
+    background: #fff;
+    width:100%;
+    margin-block-end: 100px;
+	/* height:745px; */
+    /* padding-left: 5em; */
+    
+}
+
+.event{
+    font-size: 2em;
+    font-weight: 200em;
+    color:#3d4ee3;
+    
+}
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.wave{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:100px;
+    background:url(wave.png);
+    background-size:1000px 100px;
+    /* animation:animate 4s ease-in-out infinite; */
+    /* animation-delay: calc(var(--i)*0.25s); */
+}
+.wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+    background-position-x: 400px;
+}
+.wave#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    background-position-x: 300px;
+}
+.wave#wave3{
+    z-index: 998;
+    opacity: 0.2;
+    background-position-x: 200px;
+}
+.wave#wave4{
+    z-index: 999;
+    opacity: 0.7;
+    background-position-x: 100px;
+}
+@keyframes animate{
+    0%,100%
+    {
+        transform:translateY(0px);
+    }
+    50%{
+        transform:translateY(10px);
+    }
+}
+.box2{
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS06WfEoFwGw5TMCzAlYUlykB-USjx5W6FPag&usqp=CAU");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+    
+  }
+.box2:hover{
+    
+    transform: translateY(5px);
+    box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  }
+.box1 {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    
+  }
+.box1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);}
+
+       
+
+h3{
+        position: relative;
+        font-size: 14vh;
+        color:#fff;
+        -webkit-text-stroke: 0.3vw #dbdce1;
+        text-transform: uppercase;
+    }
+h3::before{
+        content:attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        color:#3d4ee3;
+        -webkit-text-stroke: 0.0vw #f3f1f1;
+        border-right: 2px solid #3d4ee3;
+        overflow: hidden;
+        animation: animate 6s linear infinite;
+    }
+@keyframes animate {
+        0%,10%,100%{
+            width:0;
+        }
+        70%,90%{
+            width:100%
+        }
+    }
+
+.row.no-gutter {
+        margin-left: 0;
+        margin-right: 0;
+        }
+        
+.row.no-gutter > div[class*="col-"] {
+        padding-left: 0;
+        padding-right: 0;
+        }
+.navbar-toggler{
+    color: rgb(255 255 255 / 65%);
+}
+.box5{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    
+  }
+
+  .custom-toggler .navbar-toggler-icon::before {
+    background-color: white;
+  }
+
+  .custom-toggler .navbar-toggler-icon::after {
+    background-color: white;
+  }
+#collapse{
+    position: absolute;
+    z-index: 1;
+}
+.pushed-down {
+    margin-top: 50px; /* Adjust the value as needed */
+    }
+    
+html,body{
+        overflow-x: hidden;
+    }
