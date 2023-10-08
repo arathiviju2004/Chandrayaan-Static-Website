@@ -17,7 +17,7 @@
     color: #fff;
 }
 .box h1 {
-    font-size: 8em;
+    font-size: 5em;
     color: #fff;
     align-items: center;
 }
@@ -34,7 +34,7 @@
 .sizediv{
 	width:100%;
 	height:745px;
-	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("https://sight.ieee.org/wp-content/uploads/2020/05/IEEE-Student-Branch-College-of-Engineering-Chengannur.jpg");
+	background-image: url("https://w0.peakpx.com/wallpaper/117/709/HD-wallpaper-moon-space-galaxy-starry-sky-background-during-nighttime-moon.jpg");
 	background-repeat:no-repeat;
 	background-position:center center;
 	
@@ -180,7 +180,7 @@ header ul li a:hover
 }
 .box2{
     box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS06WfEoFwGw5TMCzAlYUlykB-USjx5W6FPag&usqp=CAU");
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("https://img.freepik.com/free-photo/astronaut-space-with-planet-background_1340-28941.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
